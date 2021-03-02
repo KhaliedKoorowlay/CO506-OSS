@@ -1,24 +1,20 @@
-<?php
-// Cookie Function
-//setcookie ("selqty" ,$_POST ["selqty"]);
-//session function
+<<?php
 session_start();
-//$_SESSION["selqty"] = $_POST["selqty"];
+$_SESSION["selqty"] = $_POST["selqty"];
 //$_SESSION["txtprice"] = $_POST["txtprice"];
-$_SESSION["selsize"] = $_POST["selsize"];
 ?>
 
 <html>
 <head><title>Select colour page</title></head>
 <body>
-<form action="confirmation.php"  method="post">
+<!--<form action="confirmation.php"  method="post">-->
+<form action="selectcolour.php"  method="post">
 Select the colour for the <?php echo $_POST["selqty"] ?> widgets you are ordering
-<select name="selcolour">
-<option>white</option>
-<option>red</option>
-<option>yellow</option>
-<option>green</option>
-<option>blue</option>
+<select name="selsize">
+<option value="Small">Small(£15.75)</option>
+<option value="Medium">Medium(£16.75)</option>
+<option value="Large">Large(£17.75)</option>
+<option value="Extra Large">Extra large(£18.75)</option>
 </select>
 <br/><br/>
 <!--
