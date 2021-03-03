@@ -13,8 +13,20 @@
        $total = $_SESSION["selqty"] * 15.75;
        break;
 
+     case 'Medium':
+       $total = $_SESSION["selqty"] * 16.75;
+       break;
+
+     case 'Large':
+       $total = $_SESSION["selqty"] * 17.75;
+       break;
+
+     case 'Extra large':
+       $total = $_SESSION["selqty"] * 18.75;
+       break;
+
      default:
-       
+       echo "An Error has occured";
        break;
    }
 

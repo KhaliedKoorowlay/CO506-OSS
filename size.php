@@ -1,4 +1,4 @@
-<<?php
+<?php
 session_start();
 $_SESSION["selqty"] = $_POST["selqty"];
 //$_SESSION["txtprice"] = $_POST["txtprice"];
