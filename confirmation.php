@@ -31,6 +31,7 @@
    }
 
    echo "<h2> Your order qty is {$_SESSION["selqty"]} </h2>";
+   echo "<h2> The size of the selected widgets are {$_SESSION["selsize"]} </h2>";
    echo "<h2> and the selected colour is {$_POST["selcolour"]}.</h2><hr/>";
    echo "<h2>Total price of the order: $total</h2>";
 
