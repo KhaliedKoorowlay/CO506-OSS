@@ -4,8 +4,8 @@
 //session function
 session_start();
 //$_SESSION["selqty"] = $_POST["selqty"];
-//$_SESSION["txtprice"] = $_POST["txtprice"];
-$_SESSION["selsize"] = $_POST["selsize"];
+$_SESSION["txtprice"] = $_POST["txtprice"];
+//$_SESSION["selsize"] = $_POST["selsize"];
 ?>
 
 <html>
